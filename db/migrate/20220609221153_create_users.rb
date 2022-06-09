@@ -2,7 +2,7 @@ class CreateUsers < ActiveRecord::Migration[6.1]
   def change
     create_table :users do |t|
       t.string :user_name
-      t.indeger :gender
+      t.integer :gender
 
       t.timestamps
     end
